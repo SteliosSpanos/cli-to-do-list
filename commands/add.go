@@ -7,7 +7,7 @@ import (
 	"github.com/SteliosSpanos/cli-to-do-list/pkg"
 )
 
-const filename = "notes.json"
+const filename = "tasks.json"
 
 func Add(args []string) {
 	if len(args) != 1 {
